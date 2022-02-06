@@ -1,0 +1,46 @@
+header{
+    background-color: sandybrown;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: navy;
+}
+
+footer{
+   
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    text-align: left;
+    width: 15%;
+    height: 200px;
+    float: left;
+    background-color: orange;
+    
+}
+
+aside{
+    float: right;
+    align-content:  right;
+    width: 25%;
+    height: 400px;
+    text-align: center;
+    background:skyblue;
+    
+}
+div{
+    align-content: center;
+}
+article{
+    float: center;
+    
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
