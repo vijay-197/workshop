@@ -1,0 +1,12 @@
+body{
+  padding:10px;
+  font-family: 'Arial';
+}
+
+
+.well li{
+  list-style-type: none;
+  margin-bottom:5px;
+  color:#aabfff;
+}
+
